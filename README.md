@@ -4,7 +4,7 @@ A fun and nostalgic web-based music player built during my university days! This
 
 ## Live Demo
 
-Check out the live version: [https://huynhvangioiem.github.io/TLA_PlayerMusic/](https://huynhvangioiem.github.io/TLA_PlayerMusic/)
+Check out the live version: [https://huynhvangioiem.github.io/tla-student-music-player/](https://huynhvangioiem.github.io/tla-student-music-player/)
 
 ## Features
 
@@ -29,7 +29,7 @@ Check out the live version: [https://huynhvangioiem.github.io/TLA_PlayerMusic/](
 ## Project Structure
 
 ```
-TLA-Student-Music-Player/
+tla-student-music-player/
 ├── index.html          # Main HTML file
 ├── app.js              # JavaScript application logic
 ├── style.css           # Compiled CSS styles
@@ -97,7 +97,7 @@ The application uses an object-oriented approach with a central `app` object tha
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/huynhvangioiem/TLA_PlayerMusic.git
+git clone https://github.com/huynhvangioiem/tla-student-music-player.git
 ```
 
 2. Open `index.html` in a web browser
