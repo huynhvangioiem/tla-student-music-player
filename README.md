@@ -1,6 +1,6 @@
 # TLA Music Player
 
-A fun and nostalgic web-based music player built during my university days! This project showcases a simple yet functional music player featuring Vietnamese songs by Phan Mạnh Quỳnh.
+A fun and nostalgic web-based music player built during my university days! This project showcases a simple yet functional music player with four short instrumental demo tracks.
 
 ## Live Demo
 
@@ -13,7 +13,7 @@ Check out the live version: [https://huynhvangioiem.github.io/tla-student-music-
 -   **Progress Bar**: Visual track progress with seek functionality
 -   **Rotating CD Animation**: Classic CD player animation effect
 -   **Playlist Display**: Visual song list with album artwork
--   **Lyrics Display**: View lyrics for songs (when available)
+-   **Lyrics Panel**: Shows lyrics for the current track (the demo tracks are instrumental)
 -   **Responsive Design**: Mobile-friendly interface with adaptive controls
 -   **Custom UI Library**: Built with custom TLA Library CSS framework
 
@@ -34,22 +34,19 @@ tla-student-music-player/
 ├── app.js              # JavaScript application logic
 ├── style.css           # Compiled CSS styles
 ├── SCSS/               # SCSS source files
-├── img/                # Album artwork and images
-├── music/              # MP3 audio files
+├── img/                # Track covers (SVG)
+├── music/              # Demo MP3 tracks
 └── README.md           # Project documentation
 ```
 
-## Song Collection
+## Demo Tracks
 
-The player includes 7 songs by Phan Mạnh Quỳnh:
+The original version played songs I did not own the rights to. They have been replaced with four short instrumental tracks generated for this demo (synthesized arpeggios, about 40–60 seconds each) and simple gradient covers:
 
-1. Hãy Cho Chúng Tôi Thấy
-2. Huyền Thoại
-3. Có Chàng Trai Viết Lên Cây
-4. Có Một Nơi Như Thế
-5. Gặp Gỡ, Yêu Đương Và Được Bên Em
-6. Nhạt
-7. Nước Ngoài
+1. Morning Walk
+2. Late Bus
+3. Rain on Tin
+4. Last Lecture
 
 ## Key Features Breakdown
 
@@ -126,7 +123,6 @@ If I were to revisit this project, potential enhancements could include:
 -   Volume control
 -   Playlist creation/management
 -   Search functionality
--   More complete lyrics database
 -   Audio visualization
 -   Theme customization
 -   Keyboard shortcuts
@@ -134,7 +130,7 @@ If I were to revisit this project, potential enhancements could include:
 
 ## Credits
 
--   **Music**: Songs by Phan Mạnh Quỳnh
+-   **Music**: demo tracks generated for this project
 -   **Icons**: Font Awesome
 -   **Framework**: TLA Library (custom)
 -   **Developer**: Em Huynh

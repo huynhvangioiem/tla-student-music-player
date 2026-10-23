@@ -29,64 +29,32 @@ $(document).ready(function () {
 
         songs: [
             {
-                name: "Hãy Cho Chúng Tôi Thấy",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/Hay-Cho-Chung-Toi-Thay-Phan-Manh-Quynh.mp3",
-                image: "img/1517194642254_640.jpg",
-                lyric: `Quốc ca sẽ vang lên trong trận đấu cuối cùng,
-                Ngước mắt lên lá cờ, viết tiếp những giấc mơ.
-                Bao nhiêu người đã kêu tên hy vọng muôn cõi lòng,
-                Hiên ngang không lo sợ, đập tan những nghi ngờ
-                Từ những đứa trẻ thơ... niềm vui là mang theo số áo.
-                Giờ đây nơi Việt Nam... các anh là những... ngôi sao.
-                
-                ĐK:
-                Cho chúng tôi thấy, niềm tin chiến thắng,
-                Chỉ cần cố gắng chiến đấu sẽ chẳng ai quay lưng.
-                Cho chúng tôi thấy tình yêu đất nước,
-                Để từ thôn xóm cho đến phố xá ta hô vang: Việt Nam Việt Nam.`
+                name: "Morning Walk",
+                singer: "TLA demo track",
+                path: "music/morning-walk.mp3",
+                image: "img/morning-walk.svg",
+                lyric: "Instrumental demo track, no lyrics."
             },
             {
-                name: "Huyền Thoại",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/Huyen-Thoai-Phan-Manh-Quynh.mp3",
-                image: "img/1547109568814_500.jpg",
-                lyric: "Lời bài hát đang cập nhật"
+                name: "Late Bus",
+                singer: "TLA demo track",
+                path: "music/late-bus.mp3",
+                image: "img/late-bus.svg",
+                lyric: "Instrumental demo track, no lyrics."
             },
             {
-                name: "Có Chàng Trai Viết Lên Cây",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/CoChangTraiVietLenCay.mp3",
-                image: "img/cochangtraivietlencay.jpg",
-                lyric: "Lời bài hát đang cập nhật"
+                name: "Rain on Tin",
+                singer: "TLA demo track",
+                path: "music/rain-on-tin.mp3",
+                image: "img/rain-on-tin.svg",
+                lyric: "Instrumental demo track, no lyrics."
             },
             {
-                name: "Có Một Nơi Như Thế",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/CoMotNoiNhuThe.mp3",
-                image: "img/1534302483786_640.jpg",
-                lyric: "Lời bài hát đang cập nhật"
-            },
-            {
-                name: "Gặp Gỡ, Yêu Đương Và Được Bên Em",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/GapGoYeuDuongVaDuocBenEm.mp3",
-                image: "img/144473.jpg",
-                lyric: "Lời bài hát đang cập nhật"
-            },
-            {
-                name: "Nhạt",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/Nhat.mp3",
-                image: "img/nhat.jpg",
-                lyric: "Lời bài hát đang cập nhật"
-            },
-            {
-                name: "Nước Ngoài",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/NuocNgoai.mp3",
-                image: "img/nuocngoai.jpg",
-                lyric: "Lời bài hát đang cập nhật"
+                name: "Last Lecture",
+                singer: "TLA demo track",
+                path: "music/last-lecture.mp3",
+                image: "img/last-lecture.svg",
+                lyric: "Instrumental demo track, no lyrics."
             },
         ],
         setConfig: function (key, value) {
