@@ -29,64 +29,144 @@ $(document).ready(function () {
 
         songs: [
             {
-                name: "Hãy Cho Chúng Tôi Thấy",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/Hay-Cho-Chung-Toi-Thay-Phan-Manh-Quynh.mp3",
-                image: "img/1517194642254_640.jpg",
-                lyric: `Quốc ca sẽ vang lên trong trận đấu cuối cùng,
-                Ngước mắt lên lá cờ, viết tiếp những giấc mơ.
-                Bao nhiêu người đã kêu tên hy vọng muôn cõi lòng,
-                Hiên ngang không lo sợ, đập tan những nghi ngờ
-                Từ những đứa trẻ thơ... niềm vui là mang theo số áo.
-                Giờ đây nơi Việt Nam... các anh là những... ngôi sao.
-                
-                ĐK:
-                Cho chúng tôi thấy, niềm tin chiến thắng,
-                Chỉ cần cố gắng chiến đấu sẽ chẳng ai quay lưng.
-                Cho chúng tôi thấy tình yêu đất nước,
-                Để từ thôn xóm cho đến phố xá ta hô vang: Việt Nam Việt Nam.`
+                name: "Take Me Out to the Ball Game",
+                singer: "Edward Meeker (1908)",
+                path: "music/ballgame.mp3",
+                image: "img/ballgame.jpg",
+                lyric: `Katie Casey was baseball mad,
+Had the fever and had it bad.
+Just to root for the home town crew,
+Ev'ry sou Katie blew.
+On a Saturday her young beau
+Called to see if she'd like to go
+To see a show, but Miss Kate said "No,
+I'll tell you what you can do:"
+
+Take me out to the ball game,
+Take me out with the crowd;
+Buy me some peanuts and Cracker Jack,
+I don't care if I never get back.
+Let me root, root, root for the home team,
+If they don't win, it's a shame.
+For it's one, two, three strikes, you're out,
+At the old ball game.
+
+Katie Casey saw all the games,
+Knew the players by their first names.
+Told the umpire he was wrong,
+All along,
+Good and strong.
+When the score was just two to two,
+Katie Casey knew what to do,
+Just to cheer up the boys she knew,
+She made the gang sing this song:
+
+Take me out to the ball game,
+Take me out with the crowd;
+Buy me some peanuts and Cracker Jack,
+I don't care if I never get back.
+Let me root, root, root for the home team,
+If they don't win, it's a shame.
+For it's one, two, three strikes, you're out,
+At the old ball game.`
             },
             {
-                name: "Huyền Thoại",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/Huyen-Thoai-Phan-Manh-Quynh.mp3",
-                image: "img/1547109568814_500.jpg",
-                lyric: "Lời bài hát đang cập nhật"
+                name: "Shine On, Harvest Moon",
+                singer: "Ada Jones & Billy Murray (1909)",
+                path: "music/harvest.mp3",
+                image: "img/harvest.jpg",
+                lyric: `The night was mighty dark so you could hardly see,
+For the moon refused to shine.
+Couple sitting underneath a willow tree,
+For love they did pine.
+Little maid was kinda 'fraid of darkness
+So she said, "I guess I'll go."
+Boy began to sigh, looked up at the sky,
+And told the moon his little tale of woe:
+
+Oh, shine on, shine on, harvest moon
+Up in the sky;
+I ain't had no lovin'
+Since April, January, June or July.
+Snow time ain't no time to stay
+Outdoors and spoon;
+So shine on, shine on, harvest moon,
+For me and my gal.
+
+I can't see why a boy should sigh when by his side
+Is the girl he loves so true,
+All he has to say is: "Won't you be my bride,
+For I love you?
+I can't see why I'm telling you this secret,
+When I know that you can guess."
+Harvest moon will smile,
+Shine on all the while,
+If the little girl should answer "yes."
+
+Oh, shine on, shine on, harvest moon
+Up in the sky;
+I ain't had no lovin'
+Since April, January, June or July.
+Snow time ain't no time to stay
+Outdoors and spoon;
+So shine on, shine on, harvest moon,
+For me and my gal.`
             },
             {
-                name: "Có Chàng Trai Viết Lên Cây",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/CoChangTraiVietLenCay.mp3",
-                image: "img/cochangtraivietlencay.jpg",
-                lyric: "Lời bài hát đang cập nhật"
+                name: "Down by the Old Mill Stream",
+                singer: "Brunswick Quartette (1911)",
+                path: "music/millstream.mp3",
+                image: "img/millstream.jpg",
+                lyric: `My darling I am dreaming of the days gone by,
+When you and I were sweethearts beneath the summer sky;
+Your hair has turned to silver, the gold has faded too;
+But still I will remember, where I first met you.
+
+Down by the old mill stream
+Where I first met you,
+With your eyes of blue,
+Dressed in gingham too,
+It was there I knew that you loved me true,
+You were sixteen, my village queen,
+By the old mill stream.
+
+The old mill wheel is silent and has fallen down,
+The old oak tree has withered and lies there on the ground;
+While you and I are sweethearts the same as days of yore;
+Although we've been together, forty years and more.
+
+Down by the old mill stream
+Where I first met you,
+With your eyes of blue,
+Dressed in gingham too,
+It was there I knew that you loved me true,
+You were sixteen, my village queen,
+By the old mill stream.`
             },
             {
-                name: "Có Một Nơi Như Thế",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/CoMotNoiNhuThe.mp3",
-                image: "img/1534302483786_640.jpg",
-                lyric: "Lời bài hát đang cập nhật"
-            },
-            {
-                name: "Gặp Gỡ, Yêu Đương Và Được Bên Em",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/GapGoYeuDuongVaDuocBenEm.mp3",
-                image: "img/144473.jpg",
-                lyric: "Lời bài hát đang cập nhật"
-            },
-            {
-                name: "Nhạt",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/Nhat.mp3",
-                image: "img/nhat.jpg",
-                lyric: "Lời bài hát đang cập nhật"
-            },
-            {
-                name: "Nước Ngoài",
-                singer: "Phan Mạnh Quỳnh",
-                path: "music/NuocNgoai.mp3",
-                image: "img/nuocngoai.jpg",
-                lyric: "Lời bài hát đang cập nhật"
+                name: "Let Me Call You Sweetheart",
+                singer: "Columbia Quartette (1911)",
+                path: "music/sweetheart.mp3",
+                image: "img/sweetheart.jpg",
+                lyric: `I am dreaming Dear of you, day by day
+Dreaming when the skies are blue, when they're gray
+When the silv'ry moonlight gleams, still I wander on in dreams
+In a land of love, it seems, just with you
+
+Let me call you "Sweetheart," I'm in love with you
+Let me hear you whisper that you love me too
+Keep the love-light glowing in your eyes so true
+Let me call you "Sweetheart," I'm in love with you
+
+Longing for you all the while, more and more
+Longing for the sunny smile, I adore
+Birds are singing far and near, roses blooming everywhere
+You alone my heart can cheer, you just you
+
+Let me call you "Sweetheart," I'm in love with you
+Let me hear you whisper that you love me too
+Keep the love-light glowing in your eyes so true
+Let me call you "Sweetheart," I'm in love with you`
             },
         ],
         setConfig: function (key, value) {

@@ -1,6 +1,8 @@
 # TLA Music Player
 
-A fun and nostalgic web-based music player built during my university days! This project showcases a simple yet functional music player featuring Vietnamese songs by Phan Mạnh Quỳnh.
+A web music player I built as a university student in September–October 2021, while learning JavaScript and jQuery.
+
+> **Student project, 2021.** The code is from that time and is not how I write software today. Commits from 2026 only keep the demo online: they replaced the original songs (which I did not own) with public-domain recordings and fixed the URL of TLA Library after a repo rename. The player code itself is unchanged.
 
 ## Live Demo
 
@@ -13,7 +15,7 @@ Check out the live version: [https://huynhvangioiem.github.io/tla-student-music-
 -   **Progress Bar**: Visual track progress with seek functionality
 -   **Rotating CD Animation**: Classic CD player animation effect
 -   **Playlist Display**: Visual song list with album artwork
--   **Lyrics Display**: View lyrics for songs (when available)
+-   **Lyrics Panel**: Shows the lyrics of the current song
 -   **Responsive Design**: Mobile-friendly interface with adaptive controls
 -   **Custom UI Library**: Built with custom TLA Library CSS framework
 
@@ -34,22 +36,23 @@ tla-student-music-player/
 ├── app.js              # JavaScript application logic
 ├── style.css           # Compiled CSS styles
 ├── SCSS/               # SCSS source files
-├── img/                # Album artwork and images
-├── music/              # MP3 audio files
+├── img/                # Track covers (SVG)
+├── music/              # Demo MP3 tracks
 └── README.md           # Project documentation
 ```
 
-## Song Collection
+## Songs
 
-The player includes 7 songs by Phan Mạnh Quỳnh:
+The demo plays four early American recordings. The recordings, lyrics and sheet-music covers are in the public domain in the US and come from Wikimedia Commons, Wikipedia and Wikisource:
 
-1. Hãy Cho Chúng Tôi Thấy
-2. Huyền Thoại
-3. Có Chàng Trai Viết Lên Cây
-4. Có Một Nơi Như Thế
-5. Gặp Gỡ, Yêu Đương Và Được Bên Em
-6. Nhạt
-7. Nước Ngoài
+| Song | Recording | Lyrics / music |
+|------|-----------|----------------|
+| Take Me Out to the Ball Game | Edward Meeker, 1908 | Jack Norworth / Albert Von Tilzer |
+| Shine On, Harvest Moon | Ada Jones & Billy Murray, 1909 | Jack Norworth / Nora Bayes |
+| Down by the Old Mill Stream | Brunswick Quartette, 1911 | Tell Taylor |
+| Let Me Call You Sweetheart | Columbia Quartette, 1911 | Beth Slater Whitson / Leo Friedman |
+
+The audio was re-encoded to 96 kbps mono MP3 and the covers were cropped to squares.
 
 ## Key Features Breakdown
 
@@ -126,7 +129,6 @@ If I were to revisit this project, potential enhancements could include:
 -   Volume control
 -   Playlist creation/management
 -   Search functionality
--   More complete lyrics database
 -   Audio visualization
 -   Theme customization
 -   Keyboard shortcuts
@@ -134,7 +136,7 @@ If I were to revisit this project, potential enhancements could include:
 
 ## Credits
 
--   **Music**: Songs by Phan Mạnh Quỳnh
+-   **Music, lyrics and covers**: public domain, via [Wikimedia Commons](https://commons.wikimedia.org/) and [Wikisource](https://en.wikisource.org/)
 -   **Icons**: Font Awesome
 -   **Framework**: TLA Library (custom)
 -   **Developer**: Em Huynh
