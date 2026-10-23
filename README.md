@@ -1,6 +1,8 @@
 # TLA Music Player
 
-A fun and nostalgic web-based music player built during my university days! This project showcases a simple yet functional music player with four short instrumental demo tracks.
+A web music player I built as a university student in September–October 2021, while learning JavaScript and jQuery.
+
+> **Student project, 2021.** The code is from that time and is not how I write software today. Commits from 2026 only keep the demo online: they replaced the original songs (which I did not own) with public-domain recordings and fixed the URL of TLA Library after a repo rename. The player code itself is unchanged.
 
 ## Live Demo
 
@@ -13,7 +15,7 @@ Check out the live version: [https://huynhvangioiem.github.io/tla-student-music-
 -   **Progress Bar**: Visual track progress with seek functionality
 -   **Rotating CD Animation**: Classic CD player animation effect
 -   **Playlist Display**: Visual song list with album artwork
--   **Lyrics Panel**: Shows lyrics for the current track (the demo tracks are instrumental)
+-   **Lyrics Panel**: Shows the lyrics of the current song
 -   **Responsive Design**: Mobile-friendly interface with adaptive controls
 -   **Custom UI Library**: Built with custom TLA Library CSS framework
 
@@ -39,14 +41,18 @@ tla-student-music-player/
 └── README.md           # Project documentation
 ```
 
-## Demo Tracks
+## Songs
 
-The original version played songs I did not own the rights to. They have been replaced with four short instrumental tracks generated for this demo (synthesized arpeggios, about 40–60 seconds each) and simple gradient covers:
+The demo plays four early American recordings. The recordings, lyrics and sheet-music covers are in the public domain in the US and come from Wikimedia Commons, Wikipedia and Wikisource:
 
-1. Morning Walk
-2. Late Bus
-3. Rain on Tin
-4. Last Lecture
+| Song | Recording | Lyrics / music |
+|------|-----------|----------------|
+| Take Me Out to the Ball Game | Edward Meeker, 1908 | Jack Norworth / Albert Von Tilzer |
+| Shine On, Harvest Moon | Ada Jones & Billy Murray, 1909 | Jack Norworth / Nora Bayes |
+| Down by the Old Mill Stream | Brunswick Quartette, 1911 | Tell Taylor |
+| Let Me Call You Sweetheart | Columbia Quartette, 1911 | Beth Slater Whitson / Leo Friedman |
+
+The audio was re-encoded to 96 kbps mono MP3 and the covers were cropped to squares.
 
 ## Key Features Breakdown
 
@@ -130,7 +136,7 @@ If I were to revisit this project, potential enhancements could include:
 
 ## Credits
 
--   **Music**: demo tracks generated for this project
+-   **Music, lyrics and covers**: public domain, via [Wikimedia Commons](https://commons.wikimedia.org/) and [Wikisource](https://en.wikisource.org/)
 -   **Icons**: Font Awesome
 -   **Framework**: TLA Library (custom)
 -   **Developer**: Em Huynh

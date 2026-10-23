@@ -29,32 +29,144 @@ $(document).ready(function () {
 
         songs: [
             {
-                name: "Morning Walk",
-                singer: "TLA demo track",
-                path: "music/morning-walk.mp3",
-                image: "img/morning-walk.svg",
-                lyric: "Instrumental demo track, no lyrics."
+                name: "Take Me Out to the Ball Game",
+                singer: "Edward Meeker (1908)",
+                path: "music/ballgame.mp3",
+                image: "img/ballgame.jpg",
+                lyric: `Katie Casey was baseball mad,
+Had the fever and had it bad.
+Just to root for the home town crew,
+Ev'ry sou Katie blew.
+On a Saturday her young beau
+Called to see if she'd like to go
+To see a show, but Miss Kate said "No,
+I'll tell you what you can do:"
+
+Take me out to the ball game,
+Take me out with the crowd;
+Buy me some peanuts and Cracker Jack,
+I don't care if I never get back.
+Let me root, root, root for the home team,
+If they don't win, it's a shame.
+For it's one, two, three strikes, you're out,
+At the old ball game.
+
+Katie Casey saw all the games,
+Knew the players by their first names.
+Told the umpire he was wrong,
+All along,
+Good and strong.
+When the score was just two to two,
+Katie Casey knew what to do,
+Just to cheer up the boys she knew,
+She made the gang sing this song:
+
+Take me out to the ball game,
+Take me out with the crowd;
+Buy me some peanuts and Cracker Jack,
+I don't care if I never get back.
+Let me root, root, root for the home team,
+If they don't win, it's a shame.
+For it's one, two, three strikes, you're out,
+At the old ball game.`
             },
             {
-                name: "Late Bus",
-                singer: "TLA demo track",
-                path: "music/late-bus.mp3",
-                image: "img/late-bus.svg",
-                lyric: "Instrumental demo track, no lyrics."
+                name: "Shine On, Harvest Moon",
+                singer: "Ada Jones & Billy Murray (1909)",
+                path: "music/harvest.mp3",
+                image: "img/harvest.jpg",
+                lyric: `The night was mighty dark so you could hardly see,
+For the moon refused to shine.
+Couple sitting underneath a willow tree,
+For love they did pine.
+Little maid was kinda 'fraid of darkness
+So she said, "I guess I'll go."
+Boy began to sigh, looked up at the sky,
+And told the moon his little tale of woe:
+
+Oh, shine on, shine on, harvest moon
+Up in the sky;
+I ain't had no lovin'
+Since April, January, June or July.
+Snow time ain't no time to stay
+Outdoors and spoon;
+So shine on, shine on, harvest moon,
+For me and my gal.
+
+I can't see why a boy should sigh when by his side
+Is the girl he loves so true,
+All he has to say is: "Won't you be my bride,
+For I love you?
+I can't see why I'm telling you this secret,
+When I know that you can guess."
+Harvest moon will smile,
+Shine on all the while,
+If the little girl should answer "yes."
+
+Oh, shine on, shine on, harvest moon
+Up in the sky;
+I ain't had no lovin'
+Since April, January, June or July.
+Snow time ain't no time to stay
+Outdoors and spoon;
+So shine on, shine on, harvest moon,
+For me and my gal.`
             },
             {
-                name: "Rain on Tin",
-                singer: "TLA demo track",
-                path: "music/rain-on-tin.mp3",
-                image: "img/rain-on-tin.svg",
-                lyric: "Instrumental demo track, no lyrics."
+                name: "Down by the Old Mill Stream",
+                singer: "Brunswick Quartette (1911)",
+                path: "music/millstream.mp3",
+                image: "img/millstream.jpg",
+                lyric: `My darling I am dreaming of the days gone by,
+When you and I were sweethearts beneath the summer sky;
+Your hair has turned to silver, the gold has faded too;
+But still I will remember, where I first met you.
+
+Down by the old mill stream
+Where I first met you,
+With your eyes of blue,
+Dressed in gingham too,
+It was there I knew that you loved me true,
+You were sixteen, my village queen,
+By the old mill stream.
+
+The old mill wheel is silent and has fallen down,
+The old oak tree has withered and lies there on the ground;
+While you and I are sweethearts the same as days of yore;
+Although we've been together, forty years and more.
+
+Down by the old mill stream
+Where I first met you,
+With your eyes of blue,
+Dressed in gingham too,
+It was there I knew that you loved me true,
+You were sixteen, my village queen,
+By the old mill stream.`
             },
             {
-                name: "Last Lecture",
-                singer: "TLA demo track",
-                path: "music/last-lecture.mp3",
-                image: "img/last-lecture.svg",
-                lyric: "Instrumental demo track, no lyrics."
+                name: "Let Me Call You Sweetheart",
+                singer: "Columbia Quartette (1911)",
+                path: "music/sweetheart.mp3",
+                image: "img/sweetheart.jpg",
+                lyric: `I am dreaming Dear of you, day by day
+Dreaming when the skies are blue, when they're gray
+When the silv'ry moonlight gleams, still I wander on in dreams
+In a land of love, it seems, just with you
+
+Let me call you "Sweetheart," I'm in love with you
+Let me hear you whisper that you love me too
+Keep the love-light glowing in your eyes so true
+Let me call you "Sweetheart," I'm in love with you
+
+Longing for you all the while, more and more
+Longing for the sunny smile, I adore
+Birds are singing far and near, roses blooming everywhere
+You alone my heart can cheer, you just you
+
+Let me call you "Sweetheart," I'm in love with you
+Let me hear you whisper that you love me too
+Keep the love-light glowing in your eyes so true
+Let me call you "Sweetheart," I'm in love with you`
             },
         ],
         setConfig: function (key, value) {
